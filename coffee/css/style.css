@@ -1,0 +1,57 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background: url('../img/coffee.png') center/cover no-repeat fixed;
+	color: #f5f5f5;
+ }
+ 
+ .manifest {
+	background-color: rgba(20, 14, 10, 0.8);
+	max-width: 800px;
+	margin: 100px auto;
+	padding: 60px 40px;
+	border-radius: 16px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+	text-align: center;
+ }
+ 
+ h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 48px;
+	margin-bottom: 10px;
+	color: #d6b98c;
+ }
+ 
+ h2 {
+	font-size: 22px;
+	font-style: italic;
+	font-weight: 400;
+	color: #c2a36d;
+	margin-bottom: 40px;
+ }
+ 
+ .lines p {
+	font-size: 20px;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	color: #f3f3f3;
+ }
+ 
+ @media (max-width: 600px) {
+	.manifest {
+	  padding: 40px 20px;
+	}
+ 
+	h1 {
+	  font-size: 32px;
+	}
+ 
+	h2 {
+	  font-size: 18px;
+	}
+ 
+	.lines p {
+	  font-size: 18px;
+	}
+ }
+ 
