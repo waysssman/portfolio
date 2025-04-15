@@ -1,2 +1,0 @@
-# portfolio
-my written portfolio
