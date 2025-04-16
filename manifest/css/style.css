@@ -1,0 +1,85 @@
+body {
+	margin: 0;
+	background: url('../img/manifest.jpg') center/cover no-repeat fixed;
+	font-family: 'Open Sans', sans-serif;
+	color: #f3e9d2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+	flex-direction: column;
+ }
+ 
+ h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 42px;
+	color: #000;
+	margin-bottom: 40px;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+	animation: fadeInTitle 2s ease-in-out;
+ }
+ 
+ .manifest {
+	max-width: 700px;
+	background-color: rgba(20, 14, 10, 0.85);
+	padding: 60px 40px;
+	border-radius: 16px;
+	box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+	line-height: 1.8;
+	font-style: italic;
+	text-align: center;
+ }
+ 
+ .manifest p {
+	margin-bottom: 40px;
+	opacity: 0;
+	transform: translateY(20px);
+	animation: fadeIn 1.4s ease-in forwards;
+ }
+ 
+ .manifest p:nth-of-type(1) {
+	animation-delay: 0.5s;
+ }
+ 
+ .manifest p:nth-of-type(2) {
+	animation-delay: 2.5s;
+ }
+ 
+ .manifest p:nth-of-type(3) {
+	animation-delay: 4.5s;
+ }
+ 
+ .manifest p:nth-of-type(4) {
+	animation-delay: 6.5s;
+ }
+ 
+ @keyframes fadeIn {
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+ }
+ 
+ @keyframes fadeInTitle {
+	from {
+	  opacity: 0;
+	  transform: translateY(-20px);
+	}
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+ }
+ 
+ @media (max-width: 600px) {
+	.manifest {
+	  padding: 40px 20px;
+	  font-size: 18px;
+	}
+ 
+	h1 {
+	  font-size: 32px;
+	}
+ }
