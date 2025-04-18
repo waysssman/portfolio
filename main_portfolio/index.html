@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vitalik’s Portfolio</title>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Open+Sans&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+	<script>
+		const theme = localStorage.getItem('theme') || 'light-mode';
+		document.documentElement.classList.add(theme);
+	</script>
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+
+<body>
+	<div id="preloader">
+		<div class="loader-text">V</div>
+	</div>
+
+	<div class="container">
+		<header>
+			<h1>Hi, I’m Vitalik.</h1>
+			<p>I turn ideas into tasty digital things.</p>
+		</header>
+
+		<section class="about-me">
+			<img src="img/2.jpg" alt="Vitalik Portrait">
+			<div class="about-me-content">
+				<h2>About Me</h2>
+				<p>I’m Vitalik — a creative copywriter and visual strategist.</p>
+				<p>I shape ideas into words that spark thought and stir feeling.</p>
+				<p>My work blends meaning, rhythm, and emotion — like a well-brewed espresso shot.</p>
+			</div>
+		</section>
+
+		<section class="projects">
+			<h2>PROJECTS</h2>
+			<div class="project-list">
+				<div class="project fruit">
+					<h3>🍊 Fresh Fruit Landing</h3>
+					<p>Juicy, colorful landing page for a fruit delivery service. Fast. Sweet. Memorable.</p>
+					<a href="https://waysssman.github.io/portfolio/fresh_fruit" class="button" aria-label="View Fresh Fruit project">View project</a>
+				</div>
+
+				<div class="project coffee">
+					<h3>☕ Coffee Manifest</h3>
+					<p>A warm digital manifesto. Not just about coffee — about rhythm, ritual, and reflection.</p>
+					<a href="https://waysssman.github.io/portfolio/coffee/" class="button" aria-label="Read Coffee Manifest">Read it</a>
+				</div>
+
+				<div class="project budget">
+					<h3>💸 Budget-Friendly Travel Guide</h3>
+					<p>Smart routes, tasty street food, and low-cost joy — all packed in one downloadable PDF.</p>
+					<a href="pdf/Budget-Friendly.pdf" class="button" target="_blank" aria-label="Read Budget Travel PDF">Read PDF</a>
+				</div>
+
+				<div class="project plants">
+					<h3>🌿 Indoor Plants Care Guide</h3>
+					<p>Keep your home green and happy. A printable PDF full of simple care tips and beautiful layout.</p>
+					<a href="pdf/IndoorPlants.pdf" class="button" target="_blank" aria-label="Read Indoor Plants Guide">Read PDF</a>
+				</div>
+
+				<div class="project manifest">
+					<h3>🖋 Creative Manifest</h3>
+					<p>A personal, poetic statement of how I create. Rhythm, rupture, and meaning — in every word.</p>
+					<a href="https://waysssman.github.io/portfolio/manifest" class="button" aria-label="Read Creative Manifest">Read it</a>
+				</div>
+
+				<div class="project about">
+					<h3>💬 Work with Me</h3>
+					<p>Let’s collaborate. Clear process, tasty copy, and a shared love of smart ideas.</p>
+					<a href="https://waysssman.github.io/portfolio/about" class="button" aria-label="Go to Work With Me page">Let’s talk</a>
+				</div>
+			</div>
+		</section>
+
+
+		<footer>
+			<h2>Let’s connect</h2>
+			<div class="contacts">
+				<a href="https://t.me/waysssman" target="_blank" aria-label="Contact me on Telegram">
+					<img src="icons/telegram.svg" alt="Telegram" class="icon" /> Telegram
+				</a>
+				<a href="https://github.com/waysssman" target="_blank" aria-label="Visit my GitHub">
+					<img src="icons/github.svg" alt="GitHub" class="icon" /> GitHub
+				</a>
+				<a href="mailto:opercastl@gmail.com" aria-label="Email me">
+					<img src="icons/gmail.svg" alt="Email" class="icon" /> Email
+				</a>
+			</div>
+		</footer>
+		<!-- Theme toggle button -->
+		<a href="https://waysssman.github.io/portfolio/about" class="work-toggle" aria-label="Go to Work With Me section">Work with Me</a>
+
+		<button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle">☀️ / 🌙</button>
+	</div>
+
+	<script src="js/theme-toggle.js"></script>
+</body>
+
+</html>
