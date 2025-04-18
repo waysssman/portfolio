@@ -107,11 +107,6 @@ body.light-mode {
  .project.budget::before {
 	background: transparent;
  }
-  
-  .project:hover {
-	transform: scale(1.03);
-	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
- }
  
  .project > * {
 	 position: relative;
@@ -157,7 +152,41 @@ body.light-mode {
 	align-items: flex-start;
 	text-align: left;
  }
+  .project.fruit:hover {
+	outline: 3px solid rgba(255, 140, 0, 0.8);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
  
+ .project.coffee:hover {
+	outline: 3px solid rgba(111, 78, 55, 0.8);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
+ 
+ .project.budget:hover {
+	outline: 3px solid rgba(181, 139, 100, 0.8);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
+ 
+ .project.plants:hover {
+	outline: 3px solid rgba(76, 175, 80, 0.8);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
+ 
+ .project.manifest:hover {
+	outline: 3px solid rgba(255, 255, 255, 0.4);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
+ 
+ .project.about:hover {
+	outline: 3px solid rgba(255, 255, 255, 0.4);
+	outline-offset: -6px;
+	box-shadow: none;
+ }
   
   .button {
 	display: inline-block;
