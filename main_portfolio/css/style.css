@@ -322,7 +322,7 @@ body.light-mode {
  
  @media (max-width: 700px) {
 	.project {
-	  flex: 0 1 100%;
+	  min-height: 300px;
 	}
  }
  
