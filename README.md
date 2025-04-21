@@ -16,7 +16,7 @@ I'm a **creative copywriter and visual strategist**, and this is where I turn id
 |--------|-------------|------|
 | 🍊 **Fresh Fruit Landing** | A juicy, colorful landing page for fruit delivery. | [View](https://waysssman.github.io/portfolio/fresh_fruit) |
 | ☕ **Coffee Manifest** | A poetic digital ode to coffee, creativity, and rhythm. | [Read](https://waysssman.github.io/portfolio/coffee) |
-| 💸 **Budget Travel Guide** | PDF guide with street food, smart routes, and low-cost joy. | [Open PDF](https://drive.google.com/file/d/1TSo5IIQJnpAPvqT2unEndNKfr0YqoCal/view?usp=sharing) |
+| 💸 **Budget Travel Guide** | PDF guide with street food, smart routes, and low-cost joy. | [Open PDF](https://drive.google.com/file/d/1A485K7Gj2TEFDLeUStqx8b8X9cMEx-5p/view?usp=sharing) |
 | 🌿 **Indoor Plants Guide** | Printable tips for making your apartment greener. | [Open PDF](https://drive.google.com/file/d/1TSo5IIQJnpAPvqT2unEndNKfr0YqoCal/view?usp=sharing) |
 | 🖋 **Creative Manifest** | My creative values — rhythm, rupture, and meaning. | [Read](https://waysssman.github.io/portfolio/manifest) |
 | 💬 **Work with Me** | Let's collaborate! Clear process and tasty copy. | [Let’s talk](https://waysssman.github.io/portfolio/about) |
