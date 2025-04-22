@@ -20,6 +20,7 @@ I'm a **creative copywriter and visual strategist**, and this is where I turn id
 | 🌿 **Indoor Plants Guide** | Printable tips for making your apartment greener. | [Open PDF](https://drive.google.com/file/d/1TSo5IIQJnpAPvqT2unEndNKfr0YqoCal/view?usp=sharing) |
 | 🖋 **Creative Manifest** | My creative values — rhythm, rupture, and meaning. | [Read](https://waysssman.github.io/portfolio/manifest) |
 | 💬 **Work with Me** | Let's collaborate! Clear process and tasty copy. | [Let’s talk](https://waysssman.github.io/portfolio/about) |
+| 🔧 Technical Copywriting        | Product texts, guides, release notes, FAQ, and SaaS copy.| [Read examples](./TECHNICAL_COPYWRITING.md) |
 
 ---
 
