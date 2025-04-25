@@ -231,6 +231,7 @@ html.light-mode {
 	 font-size: 18px;
 	 color: #8d6748;
 	 transition: color 0.3s ease;
+	 margin-bottom: 50px;
   }
   
   .contacts a:hover {
@@ -576,40 +577,41 @@ html.light-mode {
 	}
  }
  
-   .what-drives-me {
-    text-align: center;
-    padding: 60px 20px;
-    background-color: #fffdf7;
-    border-top: 2px dashed #d6a074;
-    border-bottom: 2px dashed #d6a074;
-    margin-top: 80px;
-  }
+ .what-drives-me {
+	text-align: center;
+	padding: 60px 20px;
+	background-color: #fffdf7;
+	border-top: 2px dashed #d6a074;
+	border-bottom: 2px dashed #d6a074;
+	margin-top: 80px;
+ }
 
-  body.dark-mode .what-drives-me {
-    background-color: #1e1e1e;
-    border-color: #fefaf5;
-  }
+ .what-drives-me h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+	color: #8d6748;
+	margin-bottom: 20px;
+ }
 
-  .what-drives-me h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 32px;
-    color: #8d6748;
-    margin-bottom: 20px;
-  }
+ .what-drives-me p {
+	font-size: 20px;
+	max-width: 700px;
+	margin: 0 auto;
+	line-height: 1.6;
+	color: #3e2f24;
+ }
 
-  body.dark-mode .what-drives-me h2 {
-    color: #fefaf5;
-  }
+ /* Тёмная тема — фиксируем читаемость! */
+ html.dark-mode .what-drives-me {
+	background-color: #2a2a2a; /* мягкий глубокий фон */
+	border-color: #fefaf5;
+ }
 
-  .what-drives-me p {
-    font-size: 20px;
-    max-width: 700px;
-    margin: 0 auto;
-    line-height: 1.6;
-    color: #3e2f24;
-  }
+ html.dark-mode .what-drives-me h2 {
+	color: #fefaf5; /* яркий контрастный заголовок */
+ }
 
-  body.dark-mode .what-drives-me p {
-    color: #f3e9d2;
-  }
+ html.dark-mode .what-drives-me p {
+	color: #eae0c8; /* тёплый светлый текст для комфортного чтения */
+ }
  
