@@ -1,3 +1,7 @@
+body{
+	transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
 html.light-mode {
 	background-color: #fefaf5;
 	background-image: url('../img/bej.png');
@@ -28,6 +32,7 @@ html.light-mode {
 	 background-size: cover;
 	 background-repeat: repeat;
 	 color: #3e2f24;
+	 transition: background-color 0.5s ease, color 0.5s ease;
   }
   
   .container {
