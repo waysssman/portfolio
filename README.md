@@ -1,4 +1,4 @@
-# ✨ Vitalik's Portfolio
+# ✨ Vitalii Portfolio
 
 Welcome to my digital playground — where words taste good and visuals tell stories.  
 I'm a **creative copywriter and visual strategist**, and this is where I turn ideas into stylish digital experiences.
