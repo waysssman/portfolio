@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Wanderfreelance Blog</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<header class="hero">
+		<h1 id="blog-title" data-en=" Notes from the Road" data-ua=" Нотатки з подорожей"> Notes from the Road</h1>
+		<p class="blog-text" data-en="I work wherever I can find a view and Wi-Fi." data-ua="Я працюю там, де є краєвид і Wi-Fi.">I work wherever I can find a view and Wi-Fi.</p>
+		<button id="toggle-language">🌐 Translate UA</button>
+		<button class="see-more-btn" onclick="toggleMore('intro')">See more</button>
+		<p id="intro" class="more-text" data-en="I never imagined working from forests, beaches, or cabins until freelancing gave me the freedom. This journey isn’t just about changing views — it’s about discovering where I think best, breathe easiest, and feel most alive." data-ua="Я ніколи не уявляв, що зможу працювати з лісу, пляжу чи будиночка в горах, поки фріланс не подарував мені цю свободу. Ця подорож — не лише про зміну краєвидів, а про пошук місць, де я мислю глибше, дихаю вільніше і відчуваю себе живим.">
+			I never imagined working from forests, beaches, or cabins until freelancing gave me the freedom. This journey isn’t just about changing views — it’s about discovering where I think best, breathe easiest, and feel most alive.
+		</p>
+	</header>
+
+	<section class="blog-section mountain">
+		<h2 data-en="Morning Hikes" data-ua="Ранкові походи">Morning Hikes</h2>
+		<p class="blog-text" data-en="Fresh air and clarity come with every step up the trail. The quiet crunch of gravel, birdsong, and endless ridges remind me why I travel." data-ua="Свіже повітря і ясність приходять з кожним кроком вгору. Шурхіт гравію, спів пташок і безкраї хребти нагадують, навіщо я мандрую.">
+			Fresh air and clarity come with every step up the trail. The quiet crunch of gravel, birdsong, and endless ridges remind me why I travel.
+		</p>
+		<button class="see-more-btn" onclick="toggleMore('mountain')">See more</button>
+		<p id="mountain" class="more-text" data-en="Morning hikes have become a ritual. The stillness at sunrise gives space for ideas. I often pause mid-trail to note thoughts or sketch article outlines in my phone." data-ua="Ранкові походи стали моїм ритуалом. Тиша світанку відкриває простір для думок. Часто я зупиняюся на стежці, щоб записати ідеї або зробити начерк статті в телефоні.">
+			Morning hikes have become a ritual. The stillness at sunrise gives space for ideas. I often pause mid-trail to note thoughts or sketch article outlines in my phone.
+		</p>
+	</section>
+
+	<section class="blog-section rain">
+		<h2 data-en="Writing in the Rain" data-ua="Писання під дощем">Writing in the Rain</h2>
+		<p class="blog-text" data-en="Some days, I sit by the window, let the storm speak, and the words just flow. Rain is the most loyal background music." data-ua="Іноді я просто сідаю біля вікна, даю зливі говорити — і слова самі приходять. Дощ — найкращий супровід для письма.">
+			Some days, I sit by the window, let the storm speak, and the words just flow. Rain is the most loyal background music.
+		</p>
+		<button class="see-more-btn" onclick="toggleMore('rain')">See more</button>
+		<p id="rain" class="more-text" data-en="Rainy days slow me down — and that’s the beauty. I write without pressure, sipping tea, with soft thunder echoing my thoughts." data-ua="Дощові дні уповільнюють мій ритм — і саме в цьому краса. Я пишу без тиску, п’ю чай, а м’який грім відгукує моїм думкам.">
+			Rainy days slow me down — and that’s the beauty. I write without pressure, sipping tea, with soft thunder echoing my thoughts.
+		</p>
+	</section>
+	<section class="blog-section beach">
+		<h2 data-en="Beach Office" data-ua="Офіс на пляжі">Beach Office</h2>
+		<p class="blog-text" data-en="Sun, sea, and signal. Sometimes all you need is a towel, a hotspot, and a good playlist to write." data-ua="Сонце, море і сигнал. Іноді все, що потрібно — це рушник, точка доступу і плейлист для натхнення.">
+			Sun, sea, and signal. Sometimes all you need is a towel, a hotspot, and a good playlist to write.
+		</p>
+		<button class="see-more-btn" onclick="toggleMore('beach')">See more</button>
+		<p id="beach" class="more-text" data-en="Working on the beach sounded like a fantasy — until I tried it. The sound of waves calms my mind and helps me stay focused. The only challenge? Not letting the breeze blow away your notes." data-ua="Робота на пляжі здавалася фантазією — поки я не спробував. Шум хвиль заспокоює думки і допомагає зосередитись. Єдина проблема — не дати вітру рознести твої нотатки.">
+			Working on the beach sounded like a fantasy — until I tried it. The sound of waves calms my mind and helps me stay focused. The only challenge? Not letting the breeze blow away your notes.
+		</p>
+	</section>
+
+	<section class="blog-section park">
+		<h2 data-en="Park Bench Writing" data-ua="Письмо на лавці в парку">Park Bench Writing</h2>
+		<p class="blog-text" data-en="Sometimes the simplest places are the most inspiring. A bench under a tree is my favorite co-working spot." data-ua="Іноді найпростіші місця — найвдихаючіші. Лавка під деревом — мій улюблений коворкінг.">
+			Sometimes the simplest places are the most inspiring. A bench under a tree is my favorite co-working spot.
+		</p>
+		<button class="see-more-btn" onclick="toggleMore('park')">See more</button>
+		<p id="park" class="more-text" data-en="City parks offer the perfect mix of energy and calm. I often write surrounded by joggers, kids, and birds — and somehow it all blends into focus." data-ua="Міські парки — ідеальне поєднання руху і тиші. Я часто пишу в оточенні бігунів, дітей і птахів — і дивним чином все це сприяє зосередженню.">
+			City parks offer the perfect mix of energy and calm. I often write surrounded by joggers, kids, and birds — and somehow it all blends into focus.
+		</p>
+	</section>
+	<footer>
+		<h2>Let’s connect</h2>
+		<div class="contacts">
+			<a href="https://t.me/waysssman" target="_blank" aria-label="Contact me on Telegram">
+				<img src="icons/telegram.svg" alt="Telegram" class="icon" /> Telegram
+			</a>
+			<a href="https://github.com/waysssman" target="_blank" aria-label="Visit my GitHub">
+				<img src="icons/github.svg" alt="GitHub" class="icon" /> GitHub
+			</a>
+			<a href="mailto:opercastl@gmail.com" aria-label="Email me">
+				<img src="icons/gmail.svg" alt="Email" class="icon" /> Email
+			</a>
+		</div>
+	</footer>
+	<script src="js/skript.js"></script>
+</body>
+
+</html>
