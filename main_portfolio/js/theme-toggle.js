@@ -1,4 +1,6 @@
 const toggleBtn = document.getElementById('theme-toggle');
+const theme = localStorage.getItem('theme') || 'light-mode';
+document.documentElement.classList.add(theme);
 const root = document.documentElement; // работаем с <html>
 
 function setTheme(theme) {
