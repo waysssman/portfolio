@@ -38,7 +38,7 @@ Whether it's a brand voice, landing page, or travel guide — I bring rhythm, wa
 
 - Telegram: [@waysssman](https://t.me/waysssman)  
 - GitHub: [@waysssman](https://github.com/waysssman)  
-- Email: [opercastl@gmail.com](mailto:opercastl@gmail.com)
+- Email: [opercastl@gmail.com](mailto:generalcrewhq@gmail.com)
 
 ---
 
